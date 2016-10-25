@@ -1,20 +1,22 @@
 <h1>Books you have never heard of but should!</h1>
 <ul>
   {{#each model as |blog|}}
-    {{book-blog-tile blog=blog}}
+    {{book-blog-tile blog=blog update="update" destroyBlog="destroyBlog"}}
   {{/each}}
 </ul>
 
 <h1>Top 10 reasons you know you are a horror movie fan!</h1>
 <ul>
   {{#each model as |blog|}}
-    {{movie-blog-tile blog=blog}}
+    {{movie-blog-tile blog=blog update="update" destroyBlog="destroyBlog"}}
   {{/each}}
 </ul>
 
 <h1>Gaming Stuff</h1>
 <ul>
   {{#each model as |blog|}}
-    {{game-blog-tile blog=blog}}
+    {{game-blog-tile blog=blog update="update" destroyBlog="destroyBlog"}}
   {{/each}}
 </ul>
+
+{{new-blog saveBlog2="saveBlog3"}}

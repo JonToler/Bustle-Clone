@@ -6,5 +6,5 @@ export default DS.Model.extend({
   image: DS.attr(),
   link: DS.attr(),
   title: DS.attr(),
-  type: DS.attr()
+  type: DS.attr(),
 });
