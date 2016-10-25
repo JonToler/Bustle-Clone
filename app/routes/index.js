@@ -5,3 +5,5 @@ export default Ember.Route.extend({
     return this.store.findAll('blog');
   }
 });
+
+/* Some route, component, or controller... */

@@ -1,0 +1,18 @@
+<div class= "container">
+  <header class= "jumbotron">
+    <h1>Bustle Clone-Faux Bustle and Better!</h1>
+  </header>
+
+    {{#simple-modal enabled=true title="--Simple Modal--"}}
+    This is our modal - now with Ember 2.0 capabilities! (Click anywhere to dismiss this notification.)
+  {{/simple-modal}}
+  {{outlet}}
+
+  <hr>
+  <footer>
+    | {{#link-to 'contact'}}Contact us!{{/link-to}} |
+    {{#link-to 'about'}}About us!{{/link-to}} |
+    {{#link-to 'index'}}Home{{/link-to}} |
+
+  </footer>
+</div>
