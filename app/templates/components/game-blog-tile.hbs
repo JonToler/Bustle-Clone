@@ -1,5 +1,17 @@
 {{#if (eq blog.type "Game")}}
-<li>
-    <a href="{{blog.link}}">{{blog.title}}</a>, by: {{blog.author}} <br>
-</li>
+  <p>
+    <a href="{{blog.link}}">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src= "{{blog.image}}">
+        </div>
+        <div class="col-sm-6">
+          {{blog.title}} <br>
+          by:  {{blog.author}} <br>
+          <br>
+          {{blog.description}}
+        </div>
+      </div>
+    </a>
+  </p>
 {{/if}}

@@ -2,16 +2,22 @@
   "title": "The 42 best books to read before you die – our favourites",
   "author": "Staff",
   "type": "Book",
-  "link": "http://www.independent.co.uk/arts-entertainment/books/features/the-40-best-books-to-read-before-you-die-a6909206.html"
+  "description":"Books are deeply personal things. Each of us form unique bonds with the characters we read about, relate to storylines and personalities in different ways and enjoy all sorts of genres from crime to romance, gothic to fantasy.",
+  "link": "http://www.independent.co.uk/arts-entertainment/books/features/the-40-best-books-to-read-before-you-die-a6909206.html",
+  "image":"http://amreading.s3.amazonaws.com/wp-content/uploads/books-4-1-600x399.jpg"
 }, {
   "title": "The 10 Worst Horror Movies of All Time",
   "author": "BILL GIBRON",
   "type": "Movie",
-  "link": "http://www.popmatters.com/post/175991-the-10-worst-horror-movies-of-all-time/"
+  "description":"Whenever the calendar rolls over to a certain 31 October, fright fans break out their opinions and wax poetic about the best and worst horror films ever made. While it may seem like nothing more than a rabid fanboy pastime, that fact is that it’s not an easy task. Like comedy, terror is in the heart of the beholder, too personal to be easily agreed upon. What some find frightening gives others a case of the uncontrollable giggles and it’s rare when fear can be universally applied.",
+  "link": "http://www.popmatters.com/post/175991-the-10-worst-horror-movies-of-all-time/",
+  "image": "../img/fly.png"
 }, {
   "title": "The man who made 'the worst video game in history",
   "author": "Richard Hooper",
   "type": "Game",
-  "link": "http://www.bbc.com/news/magazine-35560458"
+  "description":"The video game of Steven Spielberg's ET is considered to be one of the worst of all time and has even been blamed for triggering the collapse of Atari. Howard Scott Warshaw, the gifted programmer who made it, explains how it was rushed out in a matter of weeks - and how he feels about those events in California now.",
+  "link": "http://www.bbc.com/news/magazine-35560458",
+  "image":"https://i.ytimg.com/vi/2DTjLG3usQo/hqdefault.jpg"
   }]
 }
