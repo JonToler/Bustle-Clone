@@ -7,5 +7,19 @@
   {{/each}}
 </ul>
 
+<h1>Top 10 reasons you know you are a horror movie fan!</h1>
+<ul>
+  {{#each model as |blog|}}
+    {{movie-blog-tile blog=blog}}
+  {{/each}}
+</ul>
+
+<h1>Gaming Stuff</h1>
+<ul>
+  {{#each model as |blog|}}
+    {{game-blog-tile blog=blog}}
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
